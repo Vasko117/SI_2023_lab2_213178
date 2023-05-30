@@ -41,7 +41,7 @@ public class SILab2 {
             user.setUsername(user.getEmail()); //d
         }
 
-        int same = 1; //E
+        int same = 1; 
         if (user.getEmail().contains("@") && user.getEmail().contains(".")) { //e
             same = 0; //f
             for (int i=0  ;i<allUsers.size() ; i++ ) { //g.1,2,3
@@ -55,9 +55,9 @@ public class SILab2 {
             } //l
         }
 
-        String specialCharacters="!#$%&'()*+,-./:;<=>?@[]^_`{|}"; //m
-        String password = user.getPassword(); //m
-        String passwordLower = password.toLowerCase(); //m
+        String specialCharacters="!#$%&'()*+,-./:;<=>?@[]^_`{|}"; 
+        String password = user.getPassword(); 
+        String passwordLower = password.toLowerCase(); 
 
         if (passwordLower.contains(user.getUsername().toLowerCase()) || password.length()<8) { //m
             return false; //n
