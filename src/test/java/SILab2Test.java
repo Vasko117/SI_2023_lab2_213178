@@ -14,13 +14,13 @@ public class SILab2Test {
         List<User> users = new LinkedList<>();
         users.add(new User("vasil", "!hjgvasiljgh", "Vasko@primer.com"));
 
-        //a-c-e-f-g-h-i-j-k-g-l-m-n-u
-        assertFalse(SILab2.function(new User("vasil", "!hfghfgh", "Vasko@primer.com"), users));
+        //a-c-e-f-g.1-g.2-h-i-j-k-g.3-l-m-n-u
+        assertFalse(SILab2.function(new User("vasil", "!hfgvasilhfgh", "Vasko@primer.com"), users));
         //a-c-d-e-m-o-t-u
         assertFalse(SILab2.function(new User(null, "!dfgdgdg sdw2dw", "vasilpriemrcom"), users));
-        //a-c-e-f-g-h-j-g-l-m-o-p-q-r-u
-        assertTrue(SILab2.function(new User("sergej", "!asdasdasdasdw2dw", "Vasko3@primer.com"), users));
-        //a-c-e-f-g-h-j-g-l-m-o-p-q-p-s-t-u
+        //a-c-e-f-g.1-g.2-h-j-g.3-l-m-o-p.1-p.2-q-r-u
+        assertTrue(SILab2.function(new User("sergej", "!asdasdasdasdw2dw", "Vase3@primer.com"), users));
+        //a-c-e-f-g.1-g.2-h-j-g.3-l-m-o-p.1-p.2-q-p.3-s-t-u
         assertFalse(SILab2.function(new User("sergej", "hfghfghgfh", "vasil@primer.com"), users));
     }
 
