@@ -1,15 +1,15 @@
 # Vasil Strezov 213178
-2. Control flow graph
+### 2. Control flow graph
 
 ![enter image description here](https://cdn.discordapp.com/attachments/989288324906758204/1112851385428475975/image.png)
 
-3. Цикломатска комплексност:
+### 3. Цикломатска комплексност:
 	 
 	
-	Ребра-јазли+2=11
-	  Предикатни јазли + 1=11
+	 Ребра-јазли+2=11
+	 Предикатни јазли + 1 = 11
      
-4. Every Branch && 5. Multiple Condition
+### 4. Every Branch && 5. Multiple Condition
 ![enter image description here](https://cdn.discordapp.com/attachments/989288324906758204/1112889212514078831/image.png)
 ![enter image description here](https://cdn.discordapp.com/attachments/989288324906758204/1112791205026222080/image.png)
 ### Сите случаеви за исполнување на Every Branch критериумот во задачата:
