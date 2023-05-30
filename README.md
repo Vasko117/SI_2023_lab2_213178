@@ -9,7 +9,7 @@
 	Ребра-јазли+2=11
 	  Предикатни јазли + 1=11
      
-4. && 5.
+4. Every Branch && 5. Multiple Condition
 ![enter image description here](https://cdn.discordapp.com/attachments/989288324906758204/1112889212514078831/image.png)
 ![enter image description here](https://cdn.discordapp.com/attachments/989288324906758204/1112791205026222080/image.png)
 * Ако одиме по првиот тест случај односно ако User или листата е null елемент тогаш ќе ја добиеме a-b-u патеката
